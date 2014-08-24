@@ -1,6 +1,6 @@
 #Codebook
 
-This codebook explains the tidy dataset located at https://github.com/josephjoshuameyers/uci-har-data with the file name:
+This codebook explains the tidy dataset located at https://github.com/josephjoshuameyers/uci-har with the file name:
 
 uci_har_dataset_tidy.txt
 
