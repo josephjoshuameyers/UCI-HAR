@@ -40,7 +40,7 @@ There are a total of 81 variables in the tidy dataset:
 
 "subject" -- numeric value in range 1:30, denoting which human subject was tested
 
-"activity_id" -- describes the activity (keyed to the an activity number) in one of six categories: WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING.
+"activity_id" -- describes the activity (keyed in the raw data to a corresponding activity number) in one of six categories: WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING.
 
 Some (but, again, not all) of the other 79 variables are described briefly in the documentation that accompanies the dataset, and at the URL given above:
 
