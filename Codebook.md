@@ -20,7 +20,7 @@ Body linear acceleration and angular velocity were derived in time to obtain Jer
 
 The dataset includes a total of 561 different variables for each test, including tBodyAcc-XYZ, tGravityAcc-XYZ, tBodyAccJerk-XYZ, tBodyGyro-XYZ, tBodyGyroJerk-XYZ, tBodyAccMag, tGravityAccMag, tBodyAccJerkMag, tBodyGyroMag, tBodyGyroJerkMag, fBodyAcc-XYZ, fBodyAccJerk-XYZ, fBodyGyro-XYZ, fBodyAccMag, fBodyAccJerkMag, fBodyGyroMag, and fBodyGyroJerkMag, each of which are broken down into a mean, std, mad, max, min, sma, energy, iqr, entropy, arCoeff, correlation, maxInds, meanFreq, skewness, kurtosis, bandsEnergy, and angle (which includes gravityMean, tBodyAccMean, tBodyAccJerkMean, tBodyGyroMean, and tBodyGyroJerkMean.
 
-## Tidy dataset variables
+## How the variables were chosen
 
 The provenance of many (but not all) of these variables can be found in the raw dataset documentation at the URL given above. The researchers have kindly included two files:
 
@@ -31,6 +31,8 @@ The provenance of many (but not all) of these variables can be found in the raw 
 The tidy dataset distills ONLY the mean and standard deviation variables, including the derived Jerk variables described above, which are relatively small in number and can be discarded if they are not germaine to the analysis.
 
 For each subject, many measurements were taken for each of the relevant (included) mean and std variables. In re-casting the molten dataset, the means for each mean (SEE NOTE AT BOTTOM) and std were written into the tidy dataset.
+
+## Tidy dataset variables
 
 There are a total of 81 variables in the tidy dataset:
 
